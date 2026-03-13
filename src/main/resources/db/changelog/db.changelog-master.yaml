@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 0000-tag-init
+      author: analytics
+      changes:
+        - tagDatabase:
+            tag: init

@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:18.3
+    container_name: analytics-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: analytics
+      POSTGRES_USER: analytics
+      POSTGRES_PASSWORD: analytics
