@@ -8,10 +8,10 @@
 		<version>4.0.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.az</groupId>
-	<artifactId>analytics</artifactId>
+	<groupId>io.ebsar</groupId>
+	<artifactId>ebsar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>analytics</name>
+	<name>ebsar</name>
 	<description>Product &amp; user analytics</description>
 	<url/>
 	<licenses>
